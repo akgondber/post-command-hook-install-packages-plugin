@@ -1,0 +1,44 @@
+{
+  "name": "post-command-hook-install-packages-plugin",
+  "version": "1.0.0",
+  "description": "Provides install packages functionality for post-command-hook",
+  "homepage": "https://github.com/akgondber/post-command-install-packages-plugin",
+  "repository": "akgondber/post-command-hook-install-packages-plugin",
+  "author": {
+    "name": "Rushan Alyautdinov",
+    "email": "akgondber@gmail.com",
+    "url": "https://github.com/akgondber"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "keywords": [
+    "post-command-hook",
+    "optimization",
+    "cli",
+    "command",
+    "install",
+    "packages",
+    "npm",
+    "yarn",
+    "workflow",
+    "productivity",
+    "plugin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "install-packages": "^0.2.5"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "prettier": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "prettify": "prettier --write .",
+    "test": "jest"
+  }
+}
